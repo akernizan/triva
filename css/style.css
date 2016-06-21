@@ -7,14 +7,23 @@ html,
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: floralwhite;
-}
-
-.wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
+}
+
+.wrapper {
+	padding: 20px;
+	margin: auto;
+}
+
+.quiz {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
 .title {

@@ -5,7 +5,7 @@ var questions = [
     new Question("On TV, who did the character Lurch work for?", ["ADDAMS FAMILY", "BRADY BUNCH"], "ADDAMS FAMILY"),
     new Question("What is converted into alcohol during brewing?", ["SUGAR", "BARLEY"], "SUGAR"),
     new Question("What is infant whale commonly called?", ["CALF", "PUP"], "CALF"),
-    new Question("Which actor appeared in Papillion and The Great Escape and died in 1980?", ["STEVE MCQUEEN", "JOHN LENNON"], "JOHN LENNON"),
+    new Question("Which actor appeared in Papillion and The Great Escape and died in 1980?", ["STEVE MCQUEEN", "JOHN LENNON"], "STEVE MCQUEEN"),
     new Question("In which bay is Alcatraz?", ["SAN FRANCISCO BAY", "MONTEGO BAY"], "SAN FRANCISCO BAY"),
     new Question("Which TV character said, 'Live long and prosper'?", ["MR SPOCK", "ALF"], "MR SPOCK"),
 
