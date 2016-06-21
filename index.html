@@ -5,24 +5,30 @@
 	<meta charset="UTF-8">
 	<title>Trivia</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
-	<div class="container">
+	<div class="wrapper">
 		<div id="quiz" class="">
-			<h1 class="title text-center">Trivia</h1>
+			<h1 class="title">Trivia</h1>
 
-			<h2 id="question" class="col-sm-12"></h2>
-			<h3 id="score"></h3>
+			<h2 id="question"></h2>
+			<!--			<h3 id="score"></h3>-->
 
-			<p id="choice0"></p>
-			<button id="guess0" class="btn btn-default">Select Answer</button>
-
-			<p id="choice1"></p>
-			<button id="guess1" class="btn btn-default">Select Answer</button>
+			<div id="choices">
+				<div id="one">
+					<p id="choice0" class="h4"></p>
+					<button id="guess0" class="btn btn-info">Select Answer</button>
+				</div>
+				<div id="two">
+					<p id="choice1" class="h4"></p>
+					<button id="guess1" class="btn btn-info">Select Answer</button>
+				</div>
+			</div>
 
 			<footer>
 				<p id="progress">Question x of y</p>

@@ -6,8 +6,49 @@
 html,
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: floralwhite;
 }
 
-.container {
-	border: 2px solid #333;
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.title {
+	font-family: 'Mitr', sans-serif;
+	font-size: 18vmin;
+	text-align: center;
+}
+
+#choices {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#one,
+#two {
+	margin-left: 20px;
+	/*	border: 2px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	/*	width: 400vmin;*/
+	text-align: center;
+}
+
+.over {
+	font-size: 15vmin;
+	font-family: 'Mitr', sans-serif;
+}
+
+.overTxt {
+	text-align: center;
 }
