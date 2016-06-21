@@ -1,3 +1,3 @@
 # Trivia
 
-Simple trivia quiz application.
+Simple trivia quiz application using object oriented JavaScript.
