@@ -1,1 +1,3 @@
-# triva
+# Trivia
+
+Simple trivia quiz application.
