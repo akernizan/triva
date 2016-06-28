@@ -6,12 +6,16 @@
 html,
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: floralwhite;
+	background-color: white;
+	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
+	background-image: url(../images/motivo2-01.jpg);
+	background-position: top left;
+	background-size: cover;
 }
 
 .wrapper {
